@@ -114,13 +114,13 @@ namespace GodJungleTracker
 
             #region Set Headers
 
-            Packets.Patience.Header = _menu.Item("headerOnPatienceChange" + GameVersion).GetValue<Slider>().Value;
-            Packets.Attack.Header = _menu.Item("headerOnAttack2" + GameVersion).GetValue<Slider>().Value;
-            Packets.MissileHit.Header = _menu.Item("headerOnMissileHit2" + GameVersion).GetValue<Slider>().Value;
-            Packets.Disengaged.Header = _menu.Item("headerOnDisengaged" + GameVersion).GetValue<Slider>().Value;
-            Packets.MonsterSkill.Header = _menu.Item("headerOnMonsterSkill" + GameVersion).GetValue<Slider>().Value;
-            Packets.CreateGromp.Header = _menu.Item("headerOnCreateGromp" + GameVersion).GetValue<Slider>().Value;
-            Packets.CreateCampIcon.Header = _menu.Item("headerOnCreateCampIcon" + GameVersion).GetValue<Slider>().Value;
+            Packets.Patience.Header = 0
+            Packets.Attack.Header = 0
+            Packets.MissileHit.Header = 0
+            Packets.Disengaged.Header = 0
+            Packets.MonsterSkill.Header = 0
+            Packets.CreateGromp.Header = 0
+            Packets.CreateCampIcon.Header 0
 
             #endregion
 
